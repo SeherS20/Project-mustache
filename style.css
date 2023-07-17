@@ -1,0 +1,30 @@
+h1{
+    font-size: 25px !important; 
+    margin-top: 50px;
+    animation-name: h1Animation;
+    animation-duration:4s;
+    animation-iteration-count: infinite;  
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+  animation-name: backgroundAnimation;
+  animation-duration:4s;
+  animation-iteration-count: infinite;  
+}
+@keyframes backgroundAnimation{
+    0%{ box-shadow: 1px 1px 75px rgb(0, 21, 255)}
+    50%{box-shadow: 1px 1px 75px rgb(4, 255, 0);}
+    100%{ box-shadow: 1px 1px 75px rgb(0, 21, 255)}
+}
+@keyframes h1Animation {
+    0%{ box-shadow: 1px 1px 75px rgb(0, 21, 255)}
+    50%{box-shadow: 1px 1px 75px rgb(4, 255, 0);}
+    100%{ box-shadow: 1px 1px 75px rgb(0, 21, 255)}
+   }
+
+body{
+    font-family: 'Bagel Fat One', cursive;
+    color: rgb(255, 255, 255);
+}
